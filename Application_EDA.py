@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import os
 
 
-##DATA EXPLORATION
+##Data Exploration
 def explore_data():
     
     #general info of the data and how it is organized
@@ -45,7 +45,7 @@ def explore_data():
     print("Topic totals for a trader: ", sum)
 
 
-##METHOD TO FILTER OUT OUTLIERS BY IQR METHOD
+##Helper method to filter outliers by IQR out of a given dataset
 def removeOutliersByIQR(outlier_data):
 
     #compute IQR
