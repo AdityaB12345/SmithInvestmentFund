@@ -209,7 +209,7 @@ def label_plots():
 os.system('cls')
 
 #load data from parquet file to Pandas DataFrame
-data = pd.read_parquet('C:/Users/adity/Downloads/Important/VSCode/SmithInvFundApp/SIFdata.parquet')
+data = pd.read_parquet('C:/Users/adity/Downloads/Important/VSCode/SmithInvestmentFund/SIFdata.parquet')
 
 #call methods
 explore_data()
