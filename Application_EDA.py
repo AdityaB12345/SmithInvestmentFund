@@ -98,7 +98,7 @@ def simple_plots():
 
     #plot distribution of each key metric
     fig, axes = plt.subplots(2, 3, figsize=(18, 12))
-    fig.suptitle(f'Distributions of Timing Statistics')
+    fig.suptitle(f'Distributions of Key Statistics')
     axes = axes.flatten()
     for i, col in enumerate(key_cols):
         if col == "price_levels_consumed" or col == "markets_per_day":
